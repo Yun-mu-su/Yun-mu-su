@@ -19,36 +19,4 @@
   
   <br>
   
-  <!-- 动态访问量 -->
-  <div style="padding: 10px 20px; border-radius: 50px; background: #f5f5f5; display: inline-flex; align-items: center;">
-    <img src="https://img.icons8.com/ios-filled/20/ff6b6b/visitor.png" />
-    <span style="margin-left: 8px; font-weight: 600;">Visitor Count</span>
-    <img src="https://profile-counter.glitch.me/Yunmu su/count.svg" style="margin-left: 10px;" />
-  </div>
   
-  <br><br>
-  
-  <!-- 社交链接 -->
-  <div>
-    <a href="https://github.com/Yunmu su" style="text-decoration: none; margin: 0 10px;">
-      <img src="https://img.icons8.com/fluent/40/4ecdc4/github.png" alt="GitHub" />
-    </a>
-    <a href="[你的其他社交链接]" style="text-decoration: none; margin: 0 10px;">
-      <img src="https://img.icons8.com/fluent/40/4ecdc4/link.png" alt="Link" />
-    </a>
-  </div>
-  
-  <!-- 底部动态效果 -->
-  <p style="margin-top: 30px; font-size: 0.9em; color: #aaa;">
-    <span id="heart">❤️</span> Made with simplicity
-  </p>
-</div>
-
-<!-- 简单的心跳动画脚本 -->
-<script>
-  setInterval(() => {
-    const heart = document.getElementById('heart');
-    heart.style.transform = heart.style.transform === 'scale(1.2)' ? 'scale(1)' : 'scale(1.2)';
-    heart.style.transition = 'transform 0.3s ease';
-  }, 1000);
-</script>
